@@ -7,3 +7,8 @@ cards.forEach(function(card,index) {
         window.location.href = `/recipes/${index}`;        
     });
 });
+
+function showHide(event) {
+    let button = event.target
+    button.innerHTML = "Funcionou"
+}
